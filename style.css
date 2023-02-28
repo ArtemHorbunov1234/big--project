@@ -459,10 +459,6 @@ a {
     gap: 1.1rem;
 }
 
-a {
-    text-decoration: none;
-}
-
 .footer {
     display: flex;
     flex-direction: column;
