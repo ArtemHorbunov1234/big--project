@@ -353,7 +353,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 2.1rem;
-    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    padding: 2.5rem 1.25rem;
     border: solid 0.1rem;
     border-radius: 0.4rem;
 }
@@ -513,6 +513,9 @@ a {
 .social-network {
     display: flex;
     gap: 0.9rem;
-    cursor: pointer;
     align-items: flex-start;
+}
+
+.icon-pointer {
+    cursor: pointer;
 }
