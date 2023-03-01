@@ -1,5 +1,5 @@
-# big--project
+# Web site big--project
 
 
-##Web site link
--   [](https://bubblegone.github.io/frontend-challenges/product-preview-card-component/)
+## Link
+-   [web site](https://bubblegone.github.io/frontend-challenges/product-preview-card-component/)
