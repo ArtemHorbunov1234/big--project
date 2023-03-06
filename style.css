@@ -1,14 +1,16 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
 header {
-    margin-bottom: 6rem;
+    padding-bottom: 6rem;
+    background-color: #5ce4ca;
+    padding-top: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.75rem;
 }
 
 * {
@@ -18,15 +20,6 @@ header {
 }
 .container__logo {
     cursor: pointer;
-}
-.margin {
-    margin-top: 2.25rem;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    gap: 10.75rem;
 }
 
 .menu {
@@ -65,6 +58,7 @@ a {
 }
 
 .section_1 {
+    background-color: #5ce4ca;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +99,7 @@ a {
     align-items: center;
     gap: 1.25rem;
     margin-top: 1.75rem;
-    margin-bottom: 16.9rem;
+    margin-bottom: 100px;
 }
 
 .btn--spanish {
@@ -135,6 +129,7 @@ a {
     align-items: center;
     gap: 8.1rem;
     margin-bottom: 10.6rem;
+    margin-top: 170px;
 }
 
 .section_2__head {
@@ -288,12 +283,13 @@ a {
 }
 
 .section_5 {
-    margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
+    padding: 6.25rem 0;
+    background-color: #ff7d7d;
 }
 
 .section_5-flex {
     display: flex;
+    justify-content: center;
     gap: 3.1rem;
 }
 
@@ -308,12 +304,13 @@ a {
 }
 
 .section_6 {
+    background-color: #fffae9;
     display: flex;
     flex-direction: column;
     gap: 4.3rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12.5rem;
+    padding: 100px 0;
 }
 
 .section_6__header {
@@ -325,7 +322,7 @@ a {
 
 .section_6__head {
     color: #003d31;
-    font-size: 2.25rem;
+    font-size: 2.875rem;
     line-height: 2.8rem;
 }
 
@@ -374,8 +371,10 @@ a {
 
 .section_7 {
     display: flex;
+    justify-content: center;
     gap: 8rem;
-    margin-bottom: 7rem;
+    padding: 100px 0;
+    background-color: #5ce4ca;
     align-items: flex-end;
 }
 
@@ -445,13 +444,14 @@ a {
 .footer {
     display: flex;
     flex-direction: column;
+    background-color: #fffae9;
 }
 
 .main {
     display: flex;
     gap: 6.25rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin: 50px 0;
 }
 
 .flex-d {
