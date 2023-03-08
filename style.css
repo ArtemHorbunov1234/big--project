@@ -725,11 +725,12 @@ a {
     .footer-container {
         display: flex;
         flex-direction: column;
+        margin-left: 0;
     }
 
     .container--language {
         display: block;
-        gap: 2rem;
+        max-width: 36rem;
     }
 
     .text--color {
