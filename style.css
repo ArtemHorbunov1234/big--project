@@ -351,8 +351,8 @@ a {
     flex-direction: column;
     gap: 2.1rem;
     padding: 2.5rem 1.25rem;
-    border: solid 0.1rem;
     border-radius: 0.4rem;
+    background-color: white;
 }
 
 .section_6_card_head {
