@@ -507,7 +507,7 @@ a {
 .icon {
     display: flex;
     justify-content: center;
-    gap: 34.5rem;
+    gap: 32.5rem;
     margin: 2rem 0 3rem 0;
     align-items: center;
 }
@@ -520,4 +520,134 @@ a {
 
 .icon-pointer {
     cursor: pointer;
+}
+
+@media (max-width: 1230px) {
+    header {
+        gap: 4rem;
+    }
+
+    .section_2 {
+        gap: 2rem;
+    }
+
+    .section_2--girl {
+        width: 22rem;
+    }
+
+    .section_3-card {
+        gap: 0.5rem;
+    }
+
+    .card--square {
+        width: 19.1rem;
+    }
+
+    .section_4-flex {
+        gap: 2rem;
+    }
+
+    .section_4-head {
+        width: 31.6rem;
+    }
+
+    .section_4__text {
+        width: 31rem;
+    }
+
+    .section_4--girl {
+        width: 24rem;
+    }
+
+    .section_5 {
+        padding: 4rem;
+    }
+
+    .section_6__card {
+        gap: 0.8rem;
+    }
+
+    .section_6_card--gap {
+        padding: 1.25rem 0.75rem;
+        width: 20rem;
+    }
+
+    .section_6--solid {
+        max-width: 15rem;
+    }
+
+    .section_7 {
+        align-items: center;
+    }
+}
+@media (max-width: 1005px) {
+    header {
+        gap: 1rem;
+    }
+
+    .head {
+        font-size: 3rem;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+    .section_2__head {
+        max-width: 19.9rem;
+    }
+
+    .section_3-card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'planet book '
+            'wall comment'
+            'tablet clock';
+    }
+
+    .section_4-head {
+        width: 22rem;
+    }
+
+    .section_4__text {
+        width: 21rem;
+    }
+
+    .section_4__head-text {
+        width: 24rem;
+    }
+
+    .section_4-flex {
+        gap: 0rem;
+    }
+
+    .section_5-flex {
+        gap: 1.5rem;
+    }
+
+    .section_6__card {
+        flex-direction: column;
+    }
+
+    .section_7 {
+        gap: 1rem;
+    }
+
+    .section_7__head {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .section_7__head--color {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .section_7__text {
+        width: 20.6rem;
+    }
+
+    .footer-container {
+        margin-left: 3rem;
+    }
 }
