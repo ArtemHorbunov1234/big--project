@@ -502,6 +502,7 @@ a {
 .footer__copyright {
     font-size: 1rem;
     line-height: 1.6rem;
+    color: #596966;
 }
 
 .icon {
@@ -520,6 +521,58 @@ a {
 
 .icon-pointer {
     cursor: pointer;
+}
+
+.menu--color:hover {
+    text-decoration: underline;
+}
+
+.container__btn--log:hover {
+    color: red;
+}
+
+.container__btn--sign:hover {
+    color: red;
+}
+
+.btn--spanish:hover {
+    color: red;
+}
+
+.btn--start:hover {
+    color: red;
+}
+
+.section_3-card--planet:hover {
+    background-color: hsl(45, 100%, 90%);
+}
+
+.section_3-card--book:hover {
+    background-color: hsl(45, 100%, 90%);
+}
+
+.section_3-card--wall:hover {
+    background-color: hsl(45, 100%, 90%);
+}
+
+.section_3-card--comment:hover {
+    background-color: hsl(45, 100%, 90%);
+}
+
+.section_3-card--tablet:hover {
+    background-color: hsl(45, 100%, 90%);
+}
+
+.section_3-card--clock:hover {
+    background-color: hsl(45, 100%, 90%);
+}
+
+.section_4__btn:hover {
+    color: red;
+}
+
+.text--color:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1230px) {
