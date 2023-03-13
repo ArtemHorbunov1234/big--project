@@ -5,12 +5,12 @@ body {
 
 header {
     padding-bottom: 6rem;
-    background-color: #5ce4ca;
     padding-top: 2.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10.75rem;
+    background-color: #5ce4ca;
 }
 
 * {
@@ -99,7 +99,7 @@ a {
     align-items: center;
     gap: 1.25rem;
     margin-top: 1.75rem;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .btn--spanish {
@@ -129,7 +129,7 @@ a {
     align-items: center;
     gap: 8.1rem;
     margin-bottom: 10.6rem;
-    margin-top: 170px;
+    margin-top: 10.625rem;
 }
 
 .section_2__head {
@@ -168,7 +168,7 @@ a {
 .section_3__head {
     margin-inline: auto;
     margin-bottom: 4rem;
-    width: 38rem;
+    max-width: 38rem;
     font-size: 2.8rem;
     color: #003d31;
     text-align: center;
@@ -327,7 +327,7 @@ a {
 }
 
 .section_6__text {
-    width: 35.6rem;
+    max-width: 35.6rem;
     color: #596966;
     line-height: 1.75rem;
     letter-spacing: -0.01rem;
@@ -351,8 +351,8 @@ a {
     flex-direction: column;
     gap: 2.1rem;
     padding: 2.5rem 1.25rem;
-    border: solid 0.1rem;
     border-radius: 0.4rem;
+    background-color: white;
 }
 
 .section_6_card_head {
@@ -406,13 +406,13 @@ a {
 }
 
 .section_7__head--color {
-    background-color: #fffaa4;
     font-size: 2.9rem;
     padding: 1rem 2.4rem;
     border-radius: 0.5rem;
     color: #003d31;
     line-height: 3.25rem;
     font-weight: 700;
+    background-color: #fffaa4;
 }
 
 .section_7--btn {
@@ -421,6 +421,8 @@ a {
 }
 
 .footer-header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 5rem;
 }
@@ -505,7 +507,7 @@ a {
 .icon {
     display: flex;
     justify-content: center;
-    gap: 34.5rem;
+    gap: 32.5rem;
     margin: 2rem 0 3rem 0;
     align-items: center;
 }
@@ -518,4 +520,298 @@ a {
 
 .icon-pointer {
     cursor: pointer;
+}
+
+@media (max-width: 1230px) {
+    header {
+        gap: 4rem;
+    }
+
+    .section_2 {
+        gap: 2rem;
+    }
+
+    .section_2--girl {
+        width: 22rem;
+    }
+
+    .section_3-card {
+        gap: 0.5rem;
+    }
+
+    .card--square {
+        width: 19.1rem;
+    }
+
+    .section_4-flex {
+        gap: 2rem;
+    }
+
+    .section_4-head {
+        width: 31.6rem;
+    }
+
+    .section_4__text {
+        width: 31rem;
+    }
+
+    .section_4--girl {
+        width: 24rem;
+    }
+
+    .section_5 {
+        padding: 4rem;
+    }
+
+    .section_6__card {
+        gap: 0.8rem;
+    }
+
+    .section_6_card--gap {
+        padding: 1.25rem 0.75rem;
+        width: 20rem;
+    }
+
+    .section_6--solid {
+        max-width: 15rem;
+    }
+
+    .section_7 {
+        align-items: center;
+    }
+}
+@media (max-width: 1005px) {
+    header {
+        gap: 1rem;
+    }
+
+    .head {
+        font-size: 3rem;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+    .section_2__head {
+        max-width: 19.9rem;
+    }
+
+    .section_3-card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'planet book '
+            'wall comment'
+            'tablet clock';
+    }
+
+    .section_4-head {
+        width: 22rem;
+    }
+
+    .section_4__text {
+        width: 21rem;
+    }
+
+    .section_4__head-text {
+        width: 24rem;
+    }
+
+    .section_4-flex {
+        gap: 0rem;
+    }
+
+    .section_5-flex {
+        gap: 1.5rem;
+    }
+
+    .section_6__card {
+        flex-direction: column;
+    }
+
+    .section_7 {
+        gap: 1rem;
+    }
+
+    .section_7__head {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .section_7__head--color {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .section_7__text {
+        width: 20.6rem;
+    }
+
+    .footer-container {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .head {
+        padding: 0.5rem;
+    }
+
+    .section_1 {
+        gap: 2rem;
+    }
+
+    .section_2 {
+        flex-direction: column;
+        margin-top: 3.7rem;
+        margin-bottom: 6.6rem;
+    }
+
+    .section_2__head {
+        max-width: 24.9rem;
+    }
+
+    .section_3-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        grid-template-areas:
+            'planet '
+            'book'
+            'wall'
+            'comment'
+            'tablet'
+            'clock';
+    }
+
+    .section_4 {
+        margin-bottom: 7.6rem;
+    }
+
+    .section_4-flex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .section_4__head-text {
+        width: 25rem;
+    }
+
+    .section_5 {
+        padding: 1rem;
+    }
+
+    .section_5-flex {
+        gap: 0;
+    }
+
+    .section_5__head-text {
+        font-size: 1.5rem;
+    }
+
+    .section_7 {
+        flex-direction: column;
+    }
+
+    .main {
+        gap: 1.25rem;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .container--language {
+        display: block;
+        max-width: 36rem;
+    }
+
+    .text--color {
+        margin-right: 2rem;
+    }
+
+    .icon {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu {
+        gap: 1.6rem;
+    }
+
+    .head {
+        font-size: 2.5rem;
+        padding: 0.3rem;
+    }
+
+    .section_1-head {
+        gap: 0.5rem;
+    }
+
+    .section_2 {
+        text-align: center;
+    }
+
+    .section_2__head-text {
+        width: 23rem;
+    }
+
+    .section_4-flex {
+        align-items: center;
+    }
+
+    .section_4__head-text {
+        width: 22rem;
+    }
+
+    .section_4--girl {
+        width: 23rem;
+    }
+
+    .section_5__head {
+        margin-left: 1rem;
+    }
+
+    .section_5__head-text {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .section_5-flex {
+        gap: 0;
+    }
+
+    .section_6__head {
+        line-height: 3.8rem;
+    }
+
+    .main {
+        gap: 0;
+    }
+
+    .text--color {
+        margin-right: 0;
+    }
+
+    .flex-d {
+        margin-left: 0.4rem;
+        gap: 0.7rem;
+    }
+
+    .footer-container {
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .container--language {
+        text-align: center;
+    }
 }
