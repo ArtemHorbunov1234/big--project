@@ -365,10 +365,6 @@ a {
     gap: 1.25rem;
 }
 
-.section_6__dot {
-    cursor: pointer;
-}
-
 .section_7 {
     display: flex;
     justify-content: center;
