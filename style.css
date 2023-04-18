@@ -466,6 +466,7 @@ a {
     color: #003d31;
     text-decoration: underline;
     margin-top: 1.75rem;
+    cursor: pointer;
 }
 
 .footer-container {
